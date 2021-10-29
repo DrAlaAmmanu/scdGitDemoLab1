@@ -2,13 +2,14 @@ Public class Hello{
 
     public static void main(String argv[]){
 
-       String name = "World";
+       String name="World";
 
-       if(argv.length !=0){
-         name = argv[0];
+       if(argv.length!=0){
+          name= argv[0];
        }
 
-       System.out.println("Hello, "+name+" !");
+
+       System.out.println("Hello,"+name+"!");
        
     }
 
